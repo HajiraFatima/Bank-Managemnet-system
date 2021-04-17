@@ -1,0 +1,55 @@
+// create account
+
+CREATE TABLE create_account (
+  user_id int,
+  first_name varchar(20),
+  last_name varchar(20),
+  cnic_no varchar(20),
+  father_name varchar(20),
+  email varchar(20),
+  mobile varchar(20),
+  address varchar(20),
+  account_type int,
+  password varchar(20),
+  amount varchar(20),
+  account_no varchar(20)
+)
+
+// customer table
+CREATE TABLE customer (
+  cust_id int,
+  cust_fname varchar(20),
+  cust_lname varchar(20),
+  cnic varchar(20),
+  father_name varchar(20),
+  email varchar(20),
+  mobile varchar(20),
+  address varchar(20));
+
+// customer
+CREATE TABLE customer (
+  cust_id int,
+  cust_fname varchar(20),
+  cust_lname varchar(20),
+  cnic varchar(20),
+  father_name varchar(20),
+  email varchar(20),
+  mobile varchar(20),
+  address varchar(20));
+
+//deposit   
+
+CREATE TABLE deposit (
+  id int,
+  account_type varchar(20),
+  amount int,
+  get_date varchar(20));
+
+//withdraw
+
+CREATE TABLE withdraw (
+  id int,
+  account_type varchar(20),
+  amount int,
+  get_date varchar(20));
+
